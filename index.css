@@ -1,0 +1,60 @@
+header{
+  
+  background-image: url('photo.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+  padding: 10px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 2em;
+  font-weight: bold;
+  font-style: italic;
+}
+  
+
+nav {
+    background-color:black;
+    overflow: hidden;
+  }
+
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  nav li {
+    float: left;
+  }
+
+  nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  nav li a:hover {
+    background-color:greenyellow ;
+  }
+  h1{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-style: bold;
+    color: green;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 2em;
+  }
+  
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
